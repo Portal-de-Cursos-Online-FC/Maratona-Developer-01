@@ -89,7 +89,7 @@
 </ul>
 <br />
 <br />
-<br />
 <hr />
 <br />
+<p>Please consider visiting our website <a href="https://crystal-ball-fc.onrender.com">VISIT US</a></p>
 
