@@ -91,5 +91,40 @@
 <br />
 <hr />
 <br />
+<br />
+<h2 style="text-aling:center;">O que é JavaScript?</h2>
+<ul>
+    <li>Linguagem de programação</li>
+        <ul>
+            <li>
+                Interpretada e executada pelos navegadores
+            </li>
+        </ul>
+    <li>A interligência da tríade</li>
+        <ul>
+            <li>
+                HTML é a estrutura, CSS é a beleza e JavaScript é a inteligência
+            </li>
+        </ul>
+    <li>Não é Java</li>
+        <ul>
+            <li>
+                Apesar do nome ser semelhante, são linguagens diferentes.
+            </li>
+        </ul>
+</ul>
+<br />
+<br />
+<hr />
+<br />
+<h2 style="text-aling:center;">Fundamentos de JavaScript</h2>
+<p>A</p>
+
+//1. Variáveis
+
+
+
+
+<br />
 <p>Please consider visiting our website <a href="https://crystal-ball-fc.onrender.com">VISIT US</a></p>
 
