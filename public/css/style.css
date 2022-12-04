@@ -18,7 +18,9 @@ body {
 }
 
 img {
-    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
     border: 4px solid blueviolet;
     border-radius: 100%;
 }
