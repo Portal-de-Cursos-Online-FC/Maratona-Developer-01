@@ -28,5 +28,5 @@
         "url": "/today?source=pwa",
         "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
       }
-    ]
-  }
+    ]  
+}
