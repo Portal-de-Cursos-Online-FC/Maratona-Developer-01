@@ -3,16 +3,26 @@
     "name": "Bola de Cristal: Deseja conhecer seu futuro?",
     "title": "Bola de Cristal",
     "icons": [
-      {
-        "src": "./public/images/icone_512x512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      },
-      {
-        "src": "./public/images/icone_192x192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      }
+        {
+            "src": "/public/images/icone_512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/public/images/icone_192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "icons": [
+                {
+                    "src": "/public/images/icone_192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png",
+                    "purpose": "any maskable"
+                }
+            ]
+        }
     ],
     "id": "/?source=pwa",
     "start_url": "/?source=pwa",
@@ -21,12 +31,17 @@
     "scope": "/",
     "theme_color": "#3367D6",
     "shortcuts": [
-      {
-        "name": "Bola de Cristal",
-        "short_name": "Bola-de-Cristal",
-        "description": "Revelador de destino",
-        "url": "/today?source=pwa",
-        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
-      }
-    ]  
+        {
+            "name": "Bola de Cristal",
+            "short_name": "Bola-de-Cristal",
+            "description": "Revelador de destino",
+            "url": "/today?source=pwa",
+            "icons": [
+                {
+                    "src": "/public/images/icone_192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
 }
