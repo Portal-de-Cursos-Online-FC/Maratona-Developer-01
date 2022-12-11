@@ -1,6 +1,7 @@
 //global variables declaration
 const perguntaUsuario = document.querySelector('#inputPergunta');
 const resposta = document.querySelector('#resposta');
+const buttonPerguntar = document.querySelector('#buttonPerguntar')
 const respostas = [
     'Certeza!',
     'Não tenho tanta certeza.',
@@ -30,6 +31,8 @@ function fazerPergunta() {
         return;
     }
 
+    buttonPerguntar.setAttribute('disabled', true);
+
     const pergunta = '<div>' + perguntaUsuario.value + '<div>'
 
 //generate random number
@@ -37,8 +40,10 @@ function fazerPergunta() {
     const respostaAleatoria = Math.floor(Math.random() * totalRespostas);
     resposta.innerHTML = pergunta + respostas[respostaAleatoria];
 
+    resposta.style.opacity = 1;
 //hiding the question
     setTimeout(function() {
         resposta.style.opacity = 0;
+        buttonPerguntar.removeAttribute('disabled')
     }, 3000);
 }
