@@ -6,6 +6,7 @@
     Neste projecto é inspirado na Maratona Explorer 1.0 realizada pela Rocketseat na qual criamos uma aplicação que permite o usuário fazer perguntas e receber respostas programadas de forma aleatória dando a oportunidade de trabalhar/praticar os fundamentos do desenvolvimento web usando HTML5, CSS3 e JavaScript. Segue abaixo o o programa de estudos abordado nesta maratona durante a criação da aplicação.
 </p>
 <br />
+Visite nosso Website: https://bola-de-cristal-pco-fc.onrender.com/
 <br />
 <hr />
 <br />
