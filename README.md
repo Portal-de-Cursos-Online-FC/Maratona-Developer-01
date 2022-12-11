@@ -121,11 +121,35 @@ Visite nosso Website: https://bola-de-cristal-pco-fc.onrender.com/
 <h2 style="text-aling:center;">Fundamentos de JavaScript</h2>
 <p>A</p>
 
-//1. Variáveis
+1. Variáveis <br />
+    1.1. var <br />
+    1.2. let <br />
+    1.3. const <br />
+2. Tipos de Dados <br />
+    2.1. String <br />
+    2.2. Number <br />
+        2.2.1. Integer <br />
+        2.2.2. Float <br />
+    2.3. Boolean <br />
+        2.3.1. true <br />
+        2.3.2. false <br />
+    2.4. Undefined <br />
+3. Operadores <br />
+    3.1. Atribuição <br />
+    3.2. Aritméticos <br />
+    3.3. Comparação <br />
+4. Condicional(if/else)
+5. Estrutura de Dados<br />
+    5.1. Array - Vector - Lista <br />
+    5.2. Objectos <br />
+6. Function
+7. Extensões da linguagem (ex: Math, Date ...)
+8. DOM - Document Object Model
 
 
 
 
+<br />
 <br />
 <p>Please consider visiting our website <a href="https://crystal-ball-fc.onrender.com">VISIT US</a></p>
 
