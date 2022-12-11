@@ -8,21 +8,24 @@
     <link rel="shortcut icon" href="./public/images/icone_192x192.png" type="image/x-icon">
     <title>Revelação</title>
     <link rel="stylesheet" href="./public/css/style.css">
-    <script src="./public/js/script.js"></script>
+    <link rel="manifest" href="/manifest.json">
+    <script src="./public/js/script.js" defer></script>
 </head>
 <body>
     <div id="main-container">
 
         <img 
-            src="./public/images/bola_de_cristal.jpeg" width="200px" 
+            src="data:image/jpeg;base64,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" width="200px" 
             height="200px" 
             alt="Imagem de uma bola de cristal" 
         />
 
         <h1>Vou revelar seu destino!</h1>
         <p>Clique em <span>Fazer Pergunta</span> para que seu destino seja revelado</p>
-        <input type="text" placeholder="Digite aqui sua pergunta" />
-        <button>Fazer Pergunta</button>
+        <input id="inputPergunta" type="text" placeholder="Digite aqui sua pergunta" />
+        <button onclick="fazerPergunta()">Fazer Pergunta</button>
+
+        <h3 id="resposta"></h3>
 
     </div>
 
